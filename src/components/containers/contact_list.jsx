@@ -7,7 +7,7 @@ const ContactListComponent = () => {
 
   return (
     <>
-    <h1>Su contacto:</h1>
+    <h2>Su contacto:</h2>
     {/* TODO: Apply for/map to render contact list */}
     <ContactComponent contact={defaultContact}/>
     </>

@@ -8,7 +8,7 @@ const TaskListComponent = () => {
 
   return (
     <div>
-        <h1>Your Task:</h1>
+        <h2>Your Task:</h2>
         {/* TODO: Apply a for/map loop to render a list */}
         <TaskComponenent task={defaultTask}/>
     </div>

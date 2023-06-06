@@ -5,10 +5,10 @@ import { Task } from "../../models/task.class";
 function TaskComponenent({ task }) {
     return (
         <div>
-            <h2>Nombre: {task.name}</h2>
-            <h3>Descripcion: {task.descripcion}</h3>
-            <h4>Level: {task.level}</h4>
-            <h5>This task is: {task.completed ? "COMPLETED" : "PENDING"}</h5>
+            <h3>Nombre: {task.name}</h3>
+            <h4>Descripcion: {task.descripcion}</h4>
+            <h5>Level: {task.level}</h5>
+            <h6>This task is: {task.completed ? "COMPLETED" : "PENDING"}</h6>
         </div>
     );
 }

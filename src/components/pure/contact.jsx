@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import { useState } from 'react'
 import PropTypes from 'prop-types'
 import { Contact } from '../../models/contact.class'
 
@@ -9,10 +9,10 @@ function ContactComponent({ contact }) {
     }
   return (
     <div>
-        <h1>Nombre: {contact.name}</h1>
-        <h2>Apellido: {contact.lastname}</h2>
-        <h3>Email: {contact.email}</h3>
-        <h4 onClick={changeState}>Estado: {status ? "Contacto En Línea" : "Contacto No Disponible"}</h4>
+        <h3>Nombre: {contact.name}</h3>
+        <h4>Apellido: {contact.lastname}</h4>
+        <h5>Email: {contact.email}</h5>
+        <h6 onClick={changeState}>Estado: {status ? "🟢 Contacto En Línea" : "🔴 Contacto No Disponible"}</h6>
     </div>
   )
 }
