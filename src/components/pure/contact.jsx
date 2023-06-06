@@ -12,7 +12,8 @@ function ContactComponent({ contact }) {
         <h3>Nombre: {contact.name}</h3>
         <h4>Apellido: {contact.lastname}</h4>
         <h5>Email: {contact.email}</h5>
-        <h6 onClick={changeState}>Estado: {status ? "🟢 Contacto En Línea" : "🔴 Contacto No Disponible"}</h6>
+        <h6>Estado: {status ? "🟢 Contacto - En Línea" : "🔴 Contacto - No Disponible"}</h6>
+        <button onClick={changeState}>Cambiar Estado</button>
     </div>
   )
 }
