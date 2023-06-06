@@ -5,6 +5,7 @@ import './App.css'
 import Greeting from './components/pure/greeting'
 import Greetingf from './components/pure/greetingF'
 import TaskListComponent from './components/containers/task_list'
+import ContactListComponent from './components/containers/contact_list'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,8 @@ function App() {
     {/* <Greetingf name={"John Connor"}/> */}
     {/* Task list component */}
     <TaskListComponent/>
+    {/* Contact list component */}
+    <ContactListComponent/>
     </>
   )
 }
